@@ -1,20 +1,38 @@
 <p align="center">
-  <img src="assets/banner.png" alt="AgentBridge by Tarak Industries" width="100%">
+  <img src="assets/header.png" alt="AgentBridge by Tarak Industries" width="100%">
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-A43DFF?style=for-the-badge" alt="MIT License"></a>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-2D6BFF?style=for-the-badge" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/Dependencies-zero-3CAA5A?style=for-the-badge" alt="Zero dependencies">
-  <a href="https://github.com/kavitarak/agentbridge/actions"><img src="https://img.shields.io/github/actions/workflow/status/kavitarak/agentbridge/tests.yml?style=for-the-badge&label=tests" alt="Tests"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-2e7d32?style=for-the-badge" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/PYTHON-3.10%2B-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/DEPENDENCIES-ZERO-3CAA5A?style=for-the-badge" alt="Zero dependencies">
+  <a href="https://github.com/kavitarak/agentbridge/actions"><img src="https://img.shields.io/github/actions/workflow/status/kavitarak/agentbridge/tests.yml?style=for-the-badge&label=TESTS" alt="Tests"></a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TRANSLATES-ANTHROPIC%20%E2%87%84%20OPENAI-5b6ee1?style=for-the-badge" alt="Anthropic to OpenAI">
+  <img src="https://img.shields.io/badge/STREAMING-SSE-0e8a7d?style=for-the-badge" alt="Streaming">
+  <img src="https://img.shields.io/badge/TOOL%20CALLS-SUPPORTED-e8590c?style=for-the-badge" alt="Tool calls">
+  <img src="https://img.shields.io/badge/BIND-127.0.0.1-6b7280?style=for-the-badge" alt="Localhost only">
+</p>
+
+<p align="center">
+  <a href="#-quick-start">Quick Start</a> ·
+  <a href="#-providers">Providers</a> ·
+  <a href="#-what-works-with-what">Compatibility</a> ·
+  <a href="#%EF%B8%8F-settings">Settings</a> ·
+  <a href="#-security">Security</a> ·
+  <a href="#%EF%B8%8F-honest-limits">Limits</a> ·
+  <a href="#%EF%B8%8F-roadmap">Roadmap</a>
+</p>
+
+<p align="center">
+  <i>Independent open-source project. Not affiliated with or endorsed by Anthropic, OpenAI or any model provider. "Claude" and "Claude Code" are trademarks of Anthropic; AgentBridge only gives Claude Code a different backend through the gateway setting it already supports.</i>
 </p>
 
 <p align="center">
   <b>A small local gateway that lets Claude Code, and tools that speak the OpenAI chat API,<br>use the model provider <i>you</i> choose.</b><br>
   NVIDIA NIM · OpenRouter · Groq · Gemini · DeepSeek · Ollama · LM Studio · any OpenAI-compatible endpoint
 </p>
-
-> **Independent project.** AgentBridge is not made by or affiliated with Anthropic, OpenAI or any model provider. "Claude Code" is Anthropic's product; AgentBridge only gives it a different backend through the gateway setting it already supports.
 
 ---
 

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentbridge"
+version = "0.1.0"
+description = "Local gateway that lets Claude Code and OpenAI-compatible coding tools use the model provider you choose (NVIDIA NIM, OpenRouter, Groq, Gemini, DeepSeek, Ollama, LM Studio)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hemant Tarak (kavi.onlines)", email = "kavitarak@zohomail.in" }]
+keywords = ["claude-code", "llm", "proxy", "gateway", "openrouter", "nvidia-nim", "ollama", "ai-agents"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/kavitarak/agentbridge"
+
+[project.scripts]
+agentbridge = "agentbridge.cli:main"
+
+[tool.setuptools]
+packages = ["agentbridge"]

@@ -19,7 +19,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/kavitarak/agentbridge"
+Homepage = "https://github.com/kavitarak/free-claude-code-use-"
 
 [project.scripts]
 agentbridge = "agentbridge.cli:main"

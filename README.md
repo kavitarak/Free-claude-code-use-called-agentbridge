@@ -6,7 +6,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-2e7d32?style=for-the-badge" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/PYTHON-3.10%2B-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/DEPENDENCIES-ZERO-3CAA5A?style=for-the-badge" alt="Zero dependencies">
-  <a href="https://github.com/kavitarak/agentbridge/actions"><img src="https://img.shields.io/github/actions/workflow/status/kavitarak/agentbridge/tests.yml?style=for-the-badge&label=TESTS" alt="Tests"></a>
+  <a href="https://github.com/kavitarak/free-claude-code-use-/actions"><img src="https://img.shields.io/github/actions/workflow/status/kavitarak/free-claude-code-use-/tests.yml?style=for-the-badge&label=TESTS" alt="Tests"></a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/TRANSLATES-ANTHROPIC%20%E2%87%84%20OPENAI-5b6ee1?style=for-the-badge" alt="Anthropic to OpenAI">
@@ -67,7 +67,7 @@ Claude Code speaks Anthropic's *Messages* API. Most other providers speak OpenAI
 ## 🚀 Quick start
 
 ```bash
-pip install git+https://github.com/kavitarak/agentbridge.git
+pip install git+https://github.com/kavitarak/free-claude-code-use-.git
 agentbridge init          # creates ~/.agentbridge/.env (private, mode 600)
 ```
 
@@ -163,7 +163,7 @@ Found a problem? See [SECURITY.md](SECURITY.md).
 - **Images** only work if the chosen model accepts them.
 - **Token counts** from `/v1/messages/count_tokens` are rough estimates (about 4 characters per token).
 - **No Responses API, no admin web page, no chat bots** in this version.
-- Tested here against a fake provider and the real Claude Code CLI. Each real provider can behave a little differently, so please [open an issue](https://github.com/kavitarak/agentbridge/issues) if one does.
+- Tested here against a fake provider and the real Claude Code CLI. Each real provider can behave a little differently, so please [open an issue](https://github.com/kavitarak/free-claude-code-use-/issues) if one does.
 
 ---
 
@@ -179,7 +179,7 @@ Found a problem? See [SECURITY.md](SECURITY.md).
 ## 🧑‍💻 Development
 
 ```bash
-git clone https://github.com/kavitarak/agentbridge.git && cd agentbridge
+git clone https://github.com/kavitarak/free-claude-code-use-.git && cd agentbridge
 python -m unittest discover -s tests -t .
 ```
 
